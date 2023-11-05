@@ -1,5 +1,5 @@
 # 使用基于 Alpine 的 Golang 镜像作为基础镜像
-FROM golang1.20:alpine
+FROM golang:1.20-alpine
 
 # 设置工作目录
 WORKDIR /app
